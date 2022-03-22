@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600&display=swap");
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.logo h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 75px;
+
+  color: #ffffff;
+}
+.landing-page-navbar {
+  background: #595959;
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  width: 35%;
+  justify-content: flex-end;
+}
+.nav-links ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.landing-page-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links ul button {
+  margin: 0 20%;
+}
+.nav-links ul li {
+  /* padding: 0 10%; */
+  margin: 0 19%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+/* .navbar{width: 95%;width: 0 auto;} */
+.landing-page-first-section {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  /* margin-top: 50px; */
+  padding-top: 50px;
+}
+.landing-page-first-section h1,
+.landing-second-section h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 65px;
+  /* identical to box height */
+
+  color: #525554;
+}
+.landing-page-first-section p,
+.landing-second-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  width: 68%;
+  margin-top: 34px;
+  color: #525554;
+}
+.landing-page-first-img img {
+  width: 40vw;
+}
+.landing-second-section {
+  text-align: right;
+  padding-right: 65px;
+  margin-top: 200px;
+}
+.landing-second-section p {
+  width: unset;
+}
+.landing-second-section h1 {
+  padding-right: 9%;
+}
+.landing-second-section button {
+  position: relative;
+  top: 130px;
+}
+.start-now-btn {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 37px;
+  background: #00984f;
+  border-radius: 15px;
+  width: fit-content;
+  border: none;
+  padding: 2px 21px 7px 30px;
+  color: #ffffff;
+}
+.landing-page-third-cards {
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 55px;
+  margin-top: 290px;
+}
+.landing-page-third-card-one {
+  background: #396fa1;
+  padding-top: 54px;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-shadow: 20px 20px 10px 5px rgba(0, 0, 0, 0.19);
+  width: 25%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  padding-bottom: 8%;
+}
+.landing-page-third-card-two h1,
+.landing-page-third-card-third h1 {
+  color: #396fa1 !important;
+}
+.landing-page-third-card-two p,
+.landing-page-third-card-third p {
+  color: #396fa1 !important;
+}
+.landing-page-third-card-two,
+.landing-page-third-card-third {
+  color: #396fa1;
+  border: 1px solid #d5d5d5;
+  background: #ffffff;
+  box-shadow: 20px 20px 10px 10px rgba(0, 0, 0, 0.17);
+}
+.landing-page-third-card-one h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 32px;
+  color: #ffffff;
+}
+.landing-page-third-card-one p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 38px;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.landing-page-third-card-one {
+  margin-top: -320px;
+}
+.landing-page-third-card-two {
+  margin-top: -200px;
+}
+.landing-page-third-card-third {
+  margin-top: unset;
+}
+.landing-fourth-why-section h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  font-size: 55px;
+  line-height: 67px;
+  /* identical to box height */
+
+  color: #525554;
+}
+.landing-fourth-why-section {
+  text-align: center;
+  padding-bottom: 160px;margin-bottom: 90px;
+}
+.landing-fourth-why-section a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  text-decoration: underline;
+  text-decoration-color: #c44800;
+  line-height: 29px;
+
+  color: #c44800;
+}
+.landing-fourth-why-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 32px;
+  line-height: 39px;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 57px;
+  margin-bottom: 61px;
+  color: #525554;
+}
+.landing-five-instructor {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 230px;
+}
+.landing-five-instructor-img img {
+  width: 40vw;
+}
+.landing-five-instructor-text h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 59px;
+  /* identical to box height */
+
+  color: #525554;
+}
+.landing-five-instructor-text {
+  text-align: center;
+}
+.landing-five-instructor-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  padding-top: 64px;
+  width: 64%;
+  margin: 0 auto;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #525554;
+}
+.landing-five-instructor button {
+  margin-top: 60px;
+}
+.landing-sixth-popular{margin-bottom: 300px;}
+.landing-sixth-popular h1{font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 67px;
+    /* identical to box height */
+    
+    
+    color: #C44800;text-align: center;margin-bottom: 80px;}
+    .popular-cards{width: 90%;margin: 0 auto;display: flex;justify-content: space-around;align-items: center;}
+    .popular-card1{display: flex;flex-direction: column;align-items: center;width: 18%;}
+    .popular-card1 p{font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 44px;
+        /* identical to box height */
+        margin-top: 40px;
+        
+        color: #C34800;
+        }
+        .footer{background: #595959;padding-top: 12px;padding-bottom: 16px;}
+        .footer .logo h1{font-weight: 600;
+            font-size: 48px;font-family: 'Raleway';
+            line-height: 56px;}
+            .footer-links ul{display: flex;}
+            .footer-wrapper{display: flex;align-items: center;justify-content: space-between;width: 50%;}
+            .footer-end-text p{font-family: 'Montserrat';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;margin-top: 18px;
+                text-align: center;
+                
+                color: #FFFFFF;margin-left: 85px;width: 30%;}
+                .first-and-second-bg{background: url('./assets/images/newfirstbg.svg') no-repeat ;
+                background-size: cover;
+                }
+                .last-sections-bg{background: url('./assets/images/new-secondbg.svg') no-repeat ;
+                background-size: cover;background-position-y:-150px ;
+                }
+                .testimonial-card{background: #E2ECFF;position: relative;
+                    border-radius: 10px;}
+                    .testimonial-card img{position: absolute;top: -30px;left: 37%;}
+                    .testimonial-card p{font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 24px;
+                        line-height: 29px;
+                        text-align: center;
+                        padding-top: 94px;  padding-bottom: 33px;padding-left: 12px;padding-right: 12px;
+                        color: #395CA1;
+                        }
+                        .testimonial-card-wrapper{width: 30%;margin: 0 auto;margin-bottom: 11%;position: relative;}
+                        .landing-seven-testemonial{padding-bottom: 130px;}
+                        .landing-seven-testemonial h1{font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 55px;
+                            line-height: 67px;margin-bottom: 240px;
+                            /* identical to box height */
+                            
+                            text-align: center;
+                            color: #FF6000;}
+                            .landing-seven-testemonial {position: relative;}
+                            .testimoials-path img{position: absolute;bottom: 11%;left: 4%;width: 91vw;}
+                            .dots-img{position: absolute;top: 0;left: -50px;}
+                            .dots-img1{position: absolute;bottom: 0;right: -40px;}
