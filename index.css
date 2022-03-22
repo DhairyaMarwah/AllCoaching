@@ -290,7 +290,7 @@
             font-size: 48px;font-family: 'Raleway';
             line-height: 56px;}
             .footer-links ul{display: flex;}
-            .footer-wrapper{display: flex;align-items: center;justify-content: space-between;width: 50%;}
+            .footer-wrapper{display: flex;align-items: center;justify-content: space-between;width: 64%;}
             .footer-end-text p{font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 400;
@@ -317,7 +317,7 @@
                         padding-top: 94px;  padding-bottom: 33px;padding-left: 12px;padding-right: 12px;
                         color: #395CA1;
                         }
-                        .testimonial-card-wrapper{width: 30%;margin: 0 auto;margin-bottom: 11%;position: relative;}
+                        .testimonial-card-wrapper{width: 30%;margin: 0 auto;margin-bottom: 100px;position: relative;}
                         .landing-seven-testemonial{padding-bottom: 130px;}
                         .landing-seven-testemonial h1{font-family: 'Montserrat';
                             font-style: normal;
@@ -329,6 +329,15 @@
                             text-align: center;
                             color: #FF6000;}
                             .landing-seven-testemonial {position: relative;}
-                            .testimoials-path img{position: absolute;bottom: 11%;left: 4%;width: 91vw;}
+                            .testimoials-path img{position: absolute;bottom: 1%;left: 4%;width: 91vw;}
                             .dots-img{position: absolute;top: 0;left: -50px;}
                             .dots-img1{position: absolute;bottom: 0;right: -40px;}
+                            .footer-links ul li{font-family: 'Montserrat';
+                                font-style: normal;
+                                font-weight: 600;
+                                font-size: 30px;
+                                line-height: 37px;
+                                /* identical to box height */
+                                margin: 0 11%;
+                                
+                                color: #FFFFFF;}
