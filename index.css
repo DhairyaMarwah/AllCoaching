@@ -434,6 +434,7 @@ color: #FFFFFF;
 
   color: #ffffff;
 }
+.menu-btn{display: none;}
 .landing-page-third-card-one h1{text-align: center;}
 @media (max-width:1500px) {
 }
@@ -493,6 +494,10 @@ color: #FFFFFF;
   .testimonial-card p{padding-top: 62px;font-size: 19px;}
 }
 @media (max-width:1200px) {
+  .popular-card1 p{font-size: 30px;}
+  .nav-links ul li, .footer-links ul li,.nav-links ul button{font-size: 21px;}
+  .logo h1, .footer .logo h1{font-size: 36px;}
+  .logo img{width: 88px;}
   .landing-page-first-img img{width: 40vw;}
   .landing-page-first-section p, .landing-second-section p{width: 86%;}
   .landing-page-third-card-one{padding-bottom: 4%;padding-top: 38px; width: 30%;}
@@ -503,6 +508,12 @@ color: #FFFFFF;
     font-size: 20px;margin-top: 25px;
   }
   .footer-end-text p{width: 45%;font-size: 16px;text-align: left;}
+}
+@media (max-width:1080px) {
+  .testimonial-card-wrapper {
+    width: 51%;
+}
+.testimoials-path img{width: 100%;left: unset;}
 }
 @media (max-width:1000px) {
   .landing-page-third-card-one img{width: 50px;}
@@ -526,6 +537,10 @@ color: #FFFFFF;
     .landing-seven-testemonial{padding-top: 150px;}
 }
 @media (max-width:800px) {
+  .menu-btn{display: unset;position: relative;right: 30px;cursor: pointer;}
+  .landing-page-first-img img{width: 60vw;}
+  .nav-links{position: absolute;display: none;}
+  .nav-links ul{flex-direction: column;}
   .landing-page-first-section{flex-direction: column;}
   .landing-first-section-text{text-align: center;} 
   .landing-page-first-section p, .landing-second-section p{width: unset;}
@@ -534,6 +549,9 @@ color: #FFFFFF;
   .landing-five-instructor{flex-direction: column;}
   .landing-fourth-why-section{margin-bottom: 20px;}
   .landing-five-instructor-img img{width: 62vw;}
+  .show{ display: unset;position: absolute;background-color: #595959;top: 80px;right: 0;padding-bottom: 15px;width: 27%;}
+  .nav-links ul li,.nav-links ul button{font-size: 16px;}
+  .nav-links ul button{line-height: 18px;border-radius: 5px;margin-top: 5px;}
 }
 @media (max-width:670px) {
   .landing-page-third-cards{flex-direction: column;}
