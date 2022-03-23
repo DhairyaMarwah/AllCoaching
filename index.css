@@ -438,7 +438,7 @@ color: #FFFFFF;
 .landing-page-third-card-one h1{text-align: center;}
 @media (max-width:1500px) {
 }
-@media screen and (max-width:1600px) {
+@media screen and (max-width:1920px) {
   .landing-page-first-section h1, .landing-second-section h1{    font-size: 42px;
     line-height: 50px;}
   .logo h1,.footer .logo h1{    font-size: 42px;font-weight: 400;
@@ -538,6 +538,7 @@ color: #FFFFFF;
     margin-top: 22px;}
     .landing-seven-testemonial{padding-top: 150px;}
 }
+.dots-img img,.dots-img1 img{width: 18px;}
 @media (max-width:870px) {
   .dots-img img,.dots-img1 img{width: 13px;}
   .dots-img {
