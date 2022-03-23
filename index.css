@@ -516,6 +516,8 @@ color: #FFFFFF;
 .testimoials-path img{width: 100%;left: unset;}
 }
 @media (max-width:1000px) {
+  .testimonial-card-wrapper{  width: 60%;  position: relative;
+    top: 181px;}
   .landing-page-third-card-one img{width: 50px;}
   .landing-page-third-card-one h1{font-size: 23px;}
   .landing-page-third-card-one p{font-size: 15px;line-height: 18px;}
@@ -536,8 +538,45 @@ color: #FFFFFF;
     margin-top: 22px;}
     .landing-seven-testemonial{padding-top: 150px;}
 }
+@media (max-width:870px) {
+  .dots-img img,.dots-img1 img{width: 13px;}
+  .dots-img {
+    left: -22px;
+}
+.dots-img1{right: -22px;}
+.testimonial-card img {
+  width: 14%;
+}.testimonial-card p {
+  padding-top: 43px;
+  font-size: 16px;
+}.testimoials-path img {
+  top: 41%;
+}
+.testimonial-card p{padding-bottom: 18px;}
+}
+body{overflow-x: hidden;}
+@media (max-width:733px) {
+  .testimonial-card p {
+    padding-top: 33px;
+ line-height: 16px;   font-size: 14px;
+}.testimonial-card img {
+left: 42%;  width: 12%;
+}
+.testimoials-path img {
+  top: 43%;
+}
+}
 @media (max-width:800px) {
+  .landing-fourth-why-section p {
+    font-size: 22px;margin-bottom: 30px;
+ margin-top: 25px;   line-height: 30px;
+}
+.landing-fourth-why-section h1 {
+  font-size: 38px;
+  line-height: 50px;
+}
   .footer-wrapper{width: 100%;}
+  
   .footer-links{}
   .menu-btn{display: unset;position: relative;right: 30px;cursor: pointer;}
   .landing-page-first-img img{width: 60vw;}
@@ -557,8 +596,149 @@ color: #FFFFFF;
   .nav-links ul button{line-height: 18px;border-radius: 5px;margin-top: 5px;}
 }
 @media (max-width:670px) {
+  .landing-sixth-popular h1 ,.landing-seven-testemonial h1{ 
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 26px; 
+    margin-bottom: 57px;
+}
   .landing-page-third-cards{flex-direction: column;}
+  .landing-second-section{padding-right: 20px;}
+  .landing-second-section p{width: 96%;}
+  .popular-cards{width: 90%;}
   .landing-page-third-cards{margin-top: 100px;}
   .landing-page-third-card-two{margin-top: 30px;}
   .landing-page-third-card-one{margin-top: 30px;width: 70%;}
+}
+@media (max-width:500px) {
+  .landing-seven-testemonial {
+    padding-top: 46px;
+}.landing-seven-testemonial h1{margin-bottom: 15px !important;}
+  .landing-page-third-card-one {
+    /* margin-top: 30px; */
+    width: 85%;
+}
+.landing-fourth-why-section p {
+  font-size: 16px;
+  margin-bottom: 23px;
+  margin-top: 18px;
+  line-height: 20px;
+}
+.landing-fourth-why-section h1 {
+  font-size: 26px;
+  line-height: 38px;
+}
+.landing-five-instructor-img img {
+  width: 75vw;
+}
+.landing-five-instructor-text h1 {
+  font-size: 28px;
+  line-height: 37px;
+}
+.footer-links ul li{font-size: 14px ;line-height: 20px;}
+.footer-end-text p{margin-left: 6px;width: 95%;margin-top: 30px;font-size: 14px;}
+.footer-links ul { 
+  right: 24px;
+  top: 27px;
+}
+.landing-five-instructor-text p {
+  width: 96%;
+  padding-top: 20px;
+
+line-height: 24px;  font-size: 16px;
+}
+.landing-five-instructor button {
+  margin-top: 35px;
+}.start-now-btn {
+  font-size: 14px;
+  line-height: 27px;
+  padding: 2px 15px 2px 15px;
+}.landing-second-section button {
+  top: 23px;
+}
+.landing-fourth-why-section a{font-size: 16px;}
+.landing-fourth-why-section{padding-bottom: 50px;}
+.last-sections-bg { 
+  background-size: 201%;
+  background-position: -154px 151px;
+}
+  .popular-card1{width: 72%;}
+  .logo h1, .footer .logo h1 {
+    font-size: 26px;
+}
+.logo img {
+  width: 66px;
+}
+.landing-sixth-popular h1 ,.landing-seven-testemonial h1{ 
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 26px; 
+  margin-bottom: 57px;
+}
+.menu-btn img{width: 30px;}
+.landing-page-first-section h1, .landing-second-section h1{font-size: 26px;}
+.landing-page-navbar {
+  padding-top: 5px;
+  padding-bottom: 6px;
+}
+.landing-page-first-section p, .landing-second-section p {
+  font-size: 15px;
+  line-height: 18px;
+  margin-top: 12px;
+}
+.landing-page-first-img img {
+  width: 80vw;
+}
+.show{top: 70px;}
+.landing-page-first-section{padding-top: 25px;}
+.popular-card1 p {
+  font-size: 19px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+.landing-page-third-card-one h1 {
+  font-size: 20px;
+}.landing-page-third-card-one p {
+  font-size: 14px;
+  line-height: 15px;
+margin-top: 5px;}.landing-page-third-card-one img {
+  width: 41px;
+}
+.landing-seven-testemonial {
+  padding-top: 85px;
+}.landing-seven-testemonial {
+  padding-bottom: 70px;
+}
+.dots-img img,.dots-img1 img{width: 9px;}
+.testimonial-card p {
+  padding-top: 28px;
+  line-height: 14px;
+  font-size: 12px;
+}
+.testimonial-card-wrapper { 
+  top: 81px;
+}.dots-img img, .dots-img1 img {
+  width: 5px;
+}.testimonial-card p{padding-right: 3px;padding-left: 3px;padding-top: 14px;padding-bottom: 9px;}
+.testimonial-card img {
+  width: 10%;
+  top: -26px;
+}
+.testimonial-card-wrapper {
+  width: 72%;  
+}
+.testimoials-path img {
+  top: 32%;
+}
+.landing-seven-testemonial { 
+  background-size: 148%;
+  background-position: -63px 94%;
+}
+}
+@media (max-width:420px) {
+  .testimonial-card-wrapper{top: 55px;}.testimonial-card img {
+    /* width: 10%; */
+    top: -17px;
+  }
+  .testimonial-card p{font-size: 10px;}
 }
