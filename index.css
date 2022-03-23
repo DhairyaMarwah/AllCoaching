@@ -25,14 +25,26 @@
   display: flex;
   align-items: center;
 }
+.nav-links ul button{
+  background: #EC7344;
+border-radius: 10px;width: fit-content;font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;border: none;padding: 3px 13px;
+font-size: 24px;
+line-height: 37px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
 .nav-links {
   display: flex;
-  width: 35%;
-  justify-content: flex-end;
+  width: 44%;
+  /* justify-content: flex-end; */
 }
 .nav-links ul {
-  display: flex;
-  justify-content: flex-end;
+  display: flex;align-items: center;
+  justify-content: space-around;width: 100%;
 }
 .landing-page-navbar {
   display: flex;
@@ -40,11 +52,11 @@
   justify-content: space-between;
 }
 .nav-links ul button {
-  margin: 0 20%;
+  /* margin: 0 20%; */
 }
 .nav-links ul li {
   /* padding: 0 10%; */
-  margin: 0 19%;
+  /* margin: 0 14%; */
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
