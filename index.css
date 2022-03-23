@@ -320,7 +320,7 @@ color: #FFFFFF;
 }
 .footer {
   background: #595959;
-  padding-top: 12px;
+  padding-top: 12px;position: relative;
   padding-bottom: 16px;
 }
 .footer .logo h1 {
@@ -537,6 +537,8 @@ color: #FFFFFF;
     .landing-seven-testemonial{padding-top: 150px;}
 }
 @media (max-width:800px) {
+  .footer-wrapper{width: 100%;}
+  .footer-links{}
   .menu-btn{display: unset;position: relative;right: 30px;cursor: pointer;}
   .landing-page-first-img img{width: 60vw;}
   .nav-links{position: absolute;display: none;}
@@ -547,6 +549,7 @@ color: #FFFFFF;
   .landing-second-section p{width: 90%;}
   .landing-second-section h1{padding-right: 1%;}
   .landing-five-instructor{flex-direction: column;}
+  .footer-links ul{flex-direction: column;position: absolute;right: 30px;top: 10px;}
   .landing-fourth-why-section{margin-bottom: 20px;}
   .landing-five-instructor-img img{width: 62vw;}
   .show{ display: unset;position: absolute;background-color: #595959;top: 80px;right: 0;padding-bottom: 15px;width: 27%;}
