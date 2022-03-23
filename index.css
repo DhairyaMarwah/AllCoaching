@@ -94,7 +94,7 @@
   margin-top: 200px;
 }
 .landing-second-section p {
-  width: unset;
+  width: unset;margin-top: 15px;
 }
 .landing-second-section h1 {
   padding-right: 9%;
@@ -127,7 +127,7 @@
 }
 .landing-page-third-card-one {
   background: #396fa1;
-  padding-top: 54px;
+  padding-top: 54px;cursor: pointer;
   padding-left: 14px;
   padding-right: 14px;
   box-shadow: 20px 20px 10px 5px rgba(0, 0, 0, 0.19);
@@ -196,7 +196,8 @@
 }
 .landing-fourth-why-section {
   text-align: center;
-  padding-bottom: 160px;margin-bottom: 90px;
+  padding-bottom: 160px;
+  margin-bottom: 90px;
 }
 .landing-fourth-why-section a {
   font-family: "Montserrat";
@@ -263,81 +264,268 @@
 .landing-five-instructor button {
   margin-top: 60px;
 }
-.landing-sixth-popular{margin-bottom: 300px;}
-.landing-sixth-popular h1{font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 55px;
-    line-height: 67px;
-    /* identical to box height */
-    
-    
-    color: #C44800;text-align: center;margin-bottom: 80px;}
-    .popular-cards{width: 90%;margin: 0 auto;display: flex;justify-content: space-around;align-items: center;}
-    .popular-card1{display: flex;flex-direction: column;align-items: center;width: 18%;}
-    .popular-card1 p{font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 36px;
-        line-height: 44px;
-        /* identical to box height */
-        margin-top: 40px;
-        
-        color: #C34800;
-        }
-        .footer{background: #595959;padding-top: 12px;padding-bottom: 16px;}
-        .footer .logo h1{font-weight: 600;
-            font-size: 48px;font-family: 'Raleway';
-            line-height: 56px;}
-            .footer-links ul{display: flex;}
-            .footer-wrapper{display: flex;align-items: center;justify-content: space-between;width: 64%;}
-            .footer-end-text p{font-family: 'Montserrat';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 18px;
-                line-height: 22px;margin-top: 18px;
-                text-align: center;
-                
-                color: #FFFFFF;margin-left: 85px;width: 30%;}
-                .first-and-second-bg{background: url('./assets/images/newfirstbg.svg') no-repeat ;
-                background-size: cover;
-                }
-                .last-sections-bg{background: url('./assets/images/new-secondbg.svg') no-repeat ;
-                background-size: cover;background-position-y:-150px ;
-                }
-                .testimonial-card{background: #E2ECFF;position: relative;
-                    border-radius: 10px;}
-                    .testimonial-card img{position: absolute;top: -30px;left: 37%;}
-                    .testimonial-card p{font-family: 'Montserrat';
-                        font-style: normal;
-                        font-weight: 500;
-                        font-size: 24px;
-                        line-height: 29px;
-                        text-align: center;
-                        padding-top: 94px;  padding-bottom: 33px;padding-left: 12px;padding-right: 12px;
-                        color: #395CA1;
-                        }
-                        .testimonial-card-wrapper{width: 30%;margin: 0 auto;margin-bottom: 100px;position: relative;}
-                        .landing-seven-testemonial{padding-bottom: 130px;}
-                        .landing-seven-testemonial h1{font-family: 'Montserrat';
-                            font-style: normal;
-                            font-weight: 600;
-                            font-size: 55px;
-                            line-height: 67px;margin-bottom: 240px;
-                            /* identical to box height */
-                            
-                            text-align: center;
-                            color: #FF6000;}
-                            .landing-seven-testemonial {position: relative;}
-                            .testimoials-path img{position: absolute;bottom: 1%;left: 4%;width: 91vw;}
-                            .dots-img{position: absolute;top: 0;left: -50px;}
-                            .dots-img1{position: absolute;bottom: 0;right: -40px;}
-                            .footer-links ul li{font-family: 'Montserrat';
-                                font-style: normal;
-                                font-weight: 600;
-                                font-size: 30px;
-                                line-height: 37px;
-                                /* identical to box height */
-                                margin: 0 11%;
-                                
-                                color: #FFFFFF;}
+.landing-seven-testemonial {
+  padding-top: 300px;padding-bottom: 200px; background: url('./assets/images/testimonial-bg.svg') no-repeat;
+  background-size: 120%;
+  background-position: 0 100%;
+}
+.landing-sixth-popular h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 67px;
+  /* identical to box height */
+
+  color: #c44800;
+  text-align: center;
+  margin-bottom: 80px;
+}
+.popular-cards {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.popular-card1 img{width: 100%;}
+.popular-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 21%;
+}
+.popular-card1 p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  margin-top: 40px;
+
+  color: #c34800;
+}
+.footer {
+  background: #595959;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+.footer .logo h1 {
+  font-weight: 600;
+  font-size: 48px;
+  font-family: "Raleway";
+  line-height: 56px;
+}
+.footer-links ul {
+  display: flex;
+}
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 64%;
+}
+.footer-end-text p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 18px;
+  text-align: center;
+
+  color: #ffffff;
+  margin-left: 85px;
+  width: 30%;
+}
+.first-and-second-bg {
+  background: url("./assets/images/newfirstbg.svg") no-repeat;
+  background-size: cover;
+}
+.last-sections-bg {
+  background: url("./assets/images/why-bg.svg") no-repeat;
+  background-size: 124%;
+  background-position: -98px 176px;
+}
+.testimonial-card {
+  background: #e2ecff;
+  position: relative;
+  border-radius: 10px;
+}
+.testimonial-card img {
+  position: absolute;
+  top: -30px;width: 20%;
+  left: 37%;
+}
+.testimonial-card p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 94px;
+  padding-bottom: 33px;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #395ca1;
+}
+.testimonial-card-wrapper {
+  width: 40%;max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  position: relative;
+}
+.landing-seven-testemonial {
+  padding-bottom: 270px;
+}
+.landing-seven-testemonial h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 67px;
+  margin-bottom: 240px;
+  /* identical to box height */
+
+  text-align: center;
+  color: #ff6000;
+}
+.landing-seven-testemonial {
+  position: relative;
+}
+.testimoials-path img {
+  position: absolute;
+  top: 26%;
+  left: 4%;
+  width: 91vw;
+}
+.dots-img {
+  position: absolute;
+  top: 0;
+  left: -50px;
+}
+.dots-img1 {
+  position: absolute;
+  bottom: 0;
+  right: -40px;
+}
+.footer-links ul li {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  /* identical to box height */
+  margin: 0 11%;
+
+  color: #ffffff;
+}
+.landing-page-third-card-one h1{text-align: center;}
+@media (max-width:1500px) {
+}
+@media screen and (max-width:1600px) {
+  .landing-page-first-section h1, .landing-second-section h1{    font-size: 42px;
+    line-height: 50px;}
+  .logo h1,.footer .logo h1{    font-size: 42px;font-weight: 400;
+    line-height: 60px;}
+    .logo img{width: 95px;} 
+    .nav-links ul li,.footer-links ul li{font-weight: 400;
+      font-size: 24px;}
+      .landing-page-first-section p, .landing-second-section p {  
+        font-size: 24px;
+        line-height: 34px;
+        width: 75%;
+        margin-top: 34px; 
+    }
+    .landing-second-section p{width: 90%;margin-left: auto; margin-top: 12px;  }
+    .start-now-btn{    font-size: 19px;
+      line-height: 35px;   
+
+      padding: 2px 15px 2px 15px;}
+      .landing-fourth-why-section h1 {  
+        font-size: 42px;
+        line-height: 55px; 
+    }
+    .landing-fourth-why-section p { 
+      font-size: 26px;
+      line-height: 36px; 
+  }
+  .landing-five-instructor-text h1 {  
+    font-size: 42px;
+    line-height: 50px; 
+}
+.landing-five-instructor-text p { 
+  padding-top: 47px; 
+  font-size: 25px;
+  line-height: 39px; width: 70%;
+}
+.landing-page-navbar { 
+  padding-top: 7px;
+  padding-bottom: 11px;
+}
+.testimonial-card p{ padding-top: 76px;   font-size: 22px;
+  line-height: 24px;}
+.testimoials-path img{top: 30%;}
+.testimonial-card img{width: 18%;}
+}
+@media (max-width:1363px) {
+  .testimoials-path img{top: 33%;}
+  .testimonial-card p{font-size: 20px;line-height: 21px;}
+  .testimonial-card-wrapper{width: 45%;}
+  .testimonial-card img{width: 16%;}
+}
+@media (max-width:1250px) {
+  .testimoials-path img{top: 37%;}
+  .testimonial-card p{padding-top: 62px;font-size: 19px;}
+}
+@media (max-width:1200px) {
+  .landing-page-first-img img{width: 40vw;}
+  .landing-page-first-section p, .landing-second-section p{width: 86%;}
+  .landing-page-third-card-one{padding-bottom: 4%;padding-top: 38px; width: 30%;}
+  .landing-page-third-card-one h1{
+    font-size: 32px;line-height: 35px;
+  }
+  .landing-page-third-card-one p{
+    font-size: 20px;margin-top: 25px;
+  }
+  .footer-end-text p{width: 45%;font-size: 16px;text-align: left;}
+}
+@media (max-width:1000px) {
+  .landing-page-third-card-one img{width: 50px;}
+  .landing-page-third-card-one h1{font-size: 23px;}
+  .landing-page-third-card-one p{font-size: 15px;line-height: 18px;}
+  .landing-page-third-card-one{padding-top: 12px;}
+  .landing-page-third-card-one h1{margin-top:9px;}
+  .landing-second-section{margin-top: 60px;}
+  .landing-second-section button{top: 40px;}
+  .landing-page-first-section h1, .landing-second-section h1{font-size: 33px;line-height: 35px;}
+  .landing-page-first-section p, .landing-second-section p{font-size: 19px;line-height: 27px;}
+  .landing-five-instructor-text p{width: 85%;padding-top: 25px;font-size: 23px;}
+  .popular-cards{width: 80%;}
+  .popular-card1{width: 40%;margin-bottom: 20px;}
+  .landing-five-instructor{margin-bottom: 100px;}
+  .landing-seven-testemonial{padding-top: 100px;}
+  .landing-seven-testemonial h1{margin-bottom: 60px;}
+  .popular-card1 p{font-size: 24px;
+    line-height: 36px;
+    margin-top: 22px;}
+    .landing-seven-testemonial{padding-top: 150px;}
+}
+@media (max-width:800px) {
+  .landing-page-first-section{flex-direction: column;}
+  .landing-first-section-text{text-align: center;} 
+  .landing-page-first-section p, .landing-second-section p{width: unset;}
+  .landing-second-section p{width: 90%;}
+  .landing-second-section h1{padding-right: 1%;}
+  .landing-five-instructor{flex-direction: column;}
+  .landing-fourth-why-section{margin-bottom: 20px;}
+  .landing-five-instructor-img img{width: 62vw;}
+}
+@media (max-width:670px) {
+  .landing-page-third-cards{flex-direction: column;}
+  .landing-page-third-cards{margin-top: 100px;}
+  .landing-page-third-card-two{margin-top: 30px;}
+  .landing-page-third-card-one{margin-top: 30px;width: 70%;}
+}
