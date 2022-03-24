@@ -10,9 +10,9 @@
 .logo h1 {
   font-family: "Raleway";
   font-style: normal;
-  font-weight: 600;
+  /* font-weight: 600;
   font-size: 64px;
-  line-height: 75px;
+  line-height: 75px; */
 
   color: #ffffff;
 }
@@ -29,9 +29,9 @@
   background: #EC7344;
 border-radius: 10px;width: fit-content;font-family: 'Montserrat';
 font-style: normal;
-font-weight: 500;border: none;padding: 3px 13px;
-font-size: 24px;
-line-height: 37px;
+font-weight: 300;border: none;padding: 3px 13px;
+font-size: 18px;
+line-height: 25px;
 /* identical to box height */
 
 
@@ -39,7 +39,7 @@ color: #FFFFFF;
 }
 .nav-links {
   display: flex;
-  width: 44%;
+  width: 40%;
   /* justify-content: flex-end; */
 }
 .nav-links ul {
@@ -80,9 +80,8 @@ color: #FFFFFF;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
-  font-size: 55px;
-  line-height: 65px;
-  /* identical to box height */
+  /* font-size: 55px;
+  line-height: 65px;  */
 
   color: #525554;
 }
@@ -91,10 +90,10 @@ color: #FFFFFF;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
-  line-height: 37px;
-  width: 68%;
-  margin-top: 34px;
+  /* font-size: 30px;
+  line-height: 37px; */
+  /* width: 68%; */
+  /* margin-top: 34px; */
   color: #525554;
 }
 .landing-page-first-img img {
@@ -119,8 +118,8 @@ color: #FFFFFF;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 30px;
-  line-height: 37px;
+  /* font-size: 30px;
+  line-height: 37px; */
   background: #00984f;
   border-radius: 15px;
   width: fit-content;
@@ -200,8 +199,8 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 600;
   text-align: center;
-  font-size: 55px;
-  line-height: 67px;
+  /* font-size: 55px;
+  line-height: 67px; */
   /* identical to box height */
 
   color: #525554;
@@ -227,8 +226,8 @@ color: #FFFFFF;
   font-style: normal;
   font-weight: 400;
   text-align: center;
-  font-size: 32px;
-  line-height: 39px;
+  /* font-size: 32px;
+  line-height: 39px; */
   width: 90%;
   margin: 0 auto;
   text-align: center;
@@ -251,8 +250,8 @@ color: #FFFFFF;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
-  line-height: 59px;
+  /* font-size: 50px;
+  line-height: 59px; */
   /* identical to box height */
 
   color: #525554;
@@ -324,8 +323,8 @@ color: #FFFFFF;
   padding-bottom: 16px;
 }
 .footer .logo h1 {
-  font-weight: 600;
-  font-size: 48px;
+  /* font-weight: 600;
+  font-size: 48px; */
   font-family: "Raleway";
   line-height: 56px;
 }
@@ -342,17 +341,16 @@ color: #FFFFFF;
 .footer{position: relative;}
 .footer-links ul{justify-content: space-between;flex-wrap: wrap;width: 40% ;  margin-left: auto;}
 .footer-end-text p {
-  font-family: "Montserrat";
+  font-family: Montserrat;
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 17px;
   line-height: 22px;
   margin-top: 68px;
   text-align: left;
-
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   margin-left: 85px;
-  width: 40%;
+  width: 45%;
 }
 .first-and-second-bg {
   background: url("./assets/images/newfirstbg.svg") no-repeat;
@@ -439,16 +437,15 @@ color: #FFFFFF;
 }
 .menu-btn{display: none;}
 .landing-page-third-card-one h1{text-align: center;}
-@media (max-width:1500px) {
-}
-@media screen and (max-width:1920px) {
+ 
+@media screen  and (max-width:1920px) {
   .landing-page-first-section h1, .landing-second-section h1{    font-size: 42px;
     line-height: 50px;}
-  .logo h1,.footer .logo h1{    font-size: 42px;font-weight: 400;
-    line-height: 60px;}
-    .logo img{width: 95px;} 
-    .nav-links ul li,.footer-links ul li{font-weight: 400;
-      font-size: 24px;}
+  .logo h1,.footer .logo h1{    font-size: 34px;font-weight: 400;
+    line-height: 54px;}
+    .logo img{width: 70px;} 
+    .nav-links ul li,.footer-links ul li{font-weight: 300;
+      font-size: 18px;}
       .landing-page-first-section p, .landing-second-section p {  
         font-size: 24px;
         line-height: 34px;
@@ -459,7 +456,8 @@ color: #FFFFFF;
     .start-now-btn{    font-size: 19px;
       line-height: 35px;   
 
-      padding: 2px 15px 2px 15px;}
+      /* padding: 2px 15px 2px 15px; */
+    }
       .landing-fourth-why-section h1 {  
         font-size: 42px;
         line-height: 55px; 
@@ -498,9 +496,9 @@ color: #FFFFFF;
 }
 @media (max-width:1200px) {
   .popular-card1 p{font-size: 30px;}
-  .nav-links ul li, .footer-links ul li,.nav-links ul button{font-size: 21px;}
+  /* .nav-links ul li, .footer-links ul li,.nav-links ul button{font-size: 21px;} */
   .logo h1, .footer .logo h1{font-size: 36px;}
-  .logo img{width: 88px;}
+  .logo img{width: 68px;}
   .landing-page-first-img img{width: 40vw;}
   .landing-page-first-section p, .landing-second-section p{width: 86%;}
   .landing-page-third-card-one{padding-bottom: 4%;padding-top: 38px; width: 30%;}
@@ -543,6 +541,8 @@ color: #FFFFFF;
 }
 .dots-img img,.dots-img1 img{width: 18px;}
 @media (max-width:870px) {
+  .footer-end-text p{margin-left: 20px;font-size: 13px;line-height: 18px;width: 60%;}
+  .footer-links ul{justify-content: flex-end;}
   .dots-img img,.dots-img1 img{width: 13px;}
   .dots-img {
     left: -22px;
@@ -571,6 +571,10 @@ left: 42%;  width: 12%;
 }
 }
 @media (max-width:800px) {
+  .footer-links ul li{font-size: 16px;line-height: 27px;}
+  .footer-links {
+    top: 29px;
+}
   .landing-fourth-why-section p {
     font-size: 22px;margin-bottom: 30px;
  margin-top: 25px;   line-height: 30px;
@@ -592,7 +596,7 @@ left: 42%;  width: 12%;
   .landing-second-section p{width: 90%;}
   .landing-second-section h1{padding-right: 1%;}
   .landing-five-instructor{flex-direction: column;}
-  .footer-links ul{flex-direction: column;position: absolute;right: 30px;top: 10px;}
+  /* .footer-links ul{flex-direction: column;position: absolute;right: 30px;top: 10px;} */
   .landing-fourth-why-section{margin-bottom: 20px;}
   .landing-five-instructor-img img{width: 62vw;}
   .show{ display: unset;position: absolute;background-color: #595959;top: 80px;right: 0;padding-bottom: 15px;width: 27%;}
