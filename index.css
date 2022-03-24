@@ -139,9 +139,12 @@ color: #FFFFFF;
   margin-bottom: 55px;
   margin-top: 290px;
 }
-.landing-page-third-card-one {
+.landing-page-third-card-one img{width: 220px;position: absolute;top: -40px;}
+.landing-page-third-card-two img{width: 390px;top: -120px;}
+.landing-page-third-card-third img{top: -70px;}
+.landing-page-third-card-one {position: relative;
   background: #396fa1;
-  padding-top: 54px;cursor: pointer;
+  padding-top: 104px;cursor: pointer;
   padding-left: 14px;
   padding-right: 14px;
   box-shadow: 20px 20px 10px 5px rgba(0, 0, 0, 0.19);
@@ -498,6 +501,9 @@ color: #FFFFFF;
   .testimonial-card p{padding-top: 62px;font-size: 19px;}
 }
 @media (max-width:1200px) {
+  .landing-page-third-card-one img{width: 160px;position: absolute;top: -40px;}
+.landing-page-third-card-two img{width: 340px;top: -120px;}
+.landing-page-third-card-third img{top: -70px;}
   .popular-card1 p{font-size: 30px;}
   /* .nav-links ul li, .footer-links ul li,.nav-links ul button{font-size: 21px;} */
   .logo h1, .footer .logo h1{font-size: 36px;}
@@ -525,7 +531,7 @@ color: #FFFFFF;
   .landing-page-third-card-one img{width: 50px;}
   .landing-page-third-card-one h1{font-size: 23px;}
   .landing-page-third-card-one p{font-size: 15px;line-height: 18px;}
-  .landing-page-third-card-one{padding-top: 12px;}
+  .landing-page-third-card-one{padding-top: 19px;}
   .landing-page-third-card-one h1{margin-top:9px;}
   .landing-second-section{margin-top: 60px;}
   .landing-second-section button{top: 40px;}
@@ -541,6 +547,9 @@ color: #FFFFFF;
     line-height: 36px;
     margin-top: 22px;}
     .landing-seven-testemonial{padding-top: 150px;}
+    .landing-page-third-card-one img{width: 130px;position: absolute;top: -50px;}
+.landing-page-third-card-two img{width: 230px;top: -90px;}
+.landing-page-third-card-third img{top: -60px;}
 }
 .dots-img img,.dots-img1 img{width: 18px;}
 @media (max-width:870px) {
@@ -620,7 +629,7 @@ left: 42%;  width: 12%;
   .popular-cards{width: 90%;}
   .landing-page-third-cards{margin-top: 100px;}
   .landing-page-third-card-two{margin-top: 30px;}
-  .landing-page-third-card-one{margin-top: 30px;width: 70%;}
+  .landing-page-third-card-one{margin-top: 50px;width: 70%;}
 }
 @media (max-width:500px) {
   .footer-links ul{width: 40%;}
@@ -726,7 +735,7 @@ line-height: 24px;  font-size: 16px;
   font-size: 14px;
   line-height: 15px;
 margin-top: 5px;}.landing-page-third-card-one img {
-  width: 41px;
+  /* width: 41px; */
 }
 .landing-seven-testemonial {
   padding-top: 85px;
