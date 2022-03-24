@@ -619,8 +619,9 @@ left: 42%;  width: 12%;
   .landing-page-third-card-one{margin-top: 30px;width: 70%;}
 }
 @media (max-width:500px) {
+  .footer-links ul{width: 40%;}
   .footer-end-text p{margin-bottom: 95px;}
-  .footer-links{top: 143px;}
+  .footer-links{top: 146px;}
   .landing-seven-testemonial {
     padding-top: 46px;
 }.landing-seven-testemonial h1{margin-bottom: 15px !important;}
@@ -645,7 +646,7 @@ left: 42%;  width: 12%;
   font-size: 28px;
   line-height: 37px;
 }
-.footer-links ul li{font-size: 14px ;line-height: 20px;}
+.footer-links ul li{font-size: 12px ;line-height: 20px;}
 .footer-end-text p{margin-left: 6px;width: 95%;margin-top: 30px;font-size: 14px;}
 .footer-links ul { 
   right: 24px;
@@ -656,6 +657,12 @@ left: 42%;  width: 12%;
   padding-top: 20px;
 
 line-height: 24px;  font-size: 16px;
+}
+.footer-end-text p {
+  margin-left: 6px;
+  width: 95%;
+  margin-top: 20px;
+  font-size: 12px;
 }
 .landing-five-instructor button {
   margin-top: 35px;
