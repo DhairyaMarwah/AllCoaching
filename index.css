@@ -593,7 +593,8 @@ left: 42%;  width: 12%;
   .landing-page-first-img img{width: 60vw;}
   .nav-links{position: absolute;display: none;}
   .nav-links ul{flex-direction: column;}
-  .landing-page-first-section{flex-direction: column;}
+  .landing-page-first-section{flex-direction: column;padding-top: 100px;}
+  
   .landing-first-section-text{text-align: center;} 
   .landing-page-first-section p, .landing-second-section p{width: unset;}
   .landing-second-section p{width: 90%;}
@@ -715,6 +716,9 @@ line-height: 24px;  font-size: 16px;
   font-size: 19px;
   line-height: 24px;
   margin-top: 15px;
+}
+.landing-page-first-section {
+  padding-top: 85px;
 }
 .landing-page-third-card-one h1 {
   font-size: 20px;
