@@ -284,7 +284,7 @@ color: #FFFFFF;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 55px;
+  font-size: 48px;
   line-height: 67px;
   /* identical to box height */
 
@@ -309,9 +309,9 @@ color: #FFFFFF;
 .popular-card1 p {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 42px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
   /* identical to box height */
   margin-top: 40px;
 
