@@ -359,7 +359,7 @@ color: #FFFFFF;
   width: 45%;
 }
 .first-and-second-bg {
-  background: url("./assets/images/newfirstbg.svg") no-repeat;
+  /* background: url("./assets/images/newfirstbg.svg") no-repeat; */
   background-size: cover; 
 }
 .last-sections-bg {
