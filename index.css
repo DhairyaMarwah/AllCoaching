@@ -441,6 +441,7 @@ color: #FFFFFF;
   color: #000;
 }
 .menu-btn{display: none;}
+.menu-btn img{color: #000;}
 .landing-page-third-card-one h1{text-align: center;}
  
 @media screen  and (max-width:1920px) {
@@ -611,7 +612,7 @@ left: 42%;  width: 12%;
   /* .footer-links ul{flex-direction: column;position: absolute;right: 30px;top: 10px;} */
   .landing-fourth-why-section{margin-bottom: 20px;}
   .landing-five-instructor-img img{width: 62vw;}
-  .show{ display: unset;position: absolute;background-color: #595959;top: 71px;right: 0;padding-bottom: 15px;width: 27%;}
+  .show{ display: unset;position: absolute;background-color: #fff;border: 1px solid rgba(0, 0, 0, 0.37); top: 71px;right: 0;padding-bottom: 15px;width: 27%;}
   .nav-links ul li,.nav-links ul button{font-size: 16px;}
   .nav-links ul button{line-height: 18px;border-radius: 5px;margin-top: 5px;}
 }
