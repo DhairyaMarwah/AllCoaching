@@ -282,7 +282,8 @@ color: #FFFFFF;
   margin-top: 60px;
 }
 .landing-seven-testemonial {
-  padding-top: 300px;padding-bottom: 200px; background: url('./assets/images/testimonial-bg.svg') no-repeat;
+  padding-top: 300px;padding-bottom: 200px; 
+  /* background: url('./assets/images/testimonial-bg.svg') no-repeat; */
   background-size: 120%;
   background-position: 0 100%;
 }
@@ -363,7 +364,7 @@ color: #FFFFFF;
   background-size: cover; 
 }
 .last-sections-bg {
-  background: url("./assets/images/why-bg.svg") no-repeat;
+  /* background: url("./assets/images/why-bg.svg") no-repeat; */
   background-size: 124%;
   background-position: -98px 176px;
 }
