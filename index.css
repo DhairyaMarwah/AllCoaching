@@ -8,16 +8,15 @@
   list-style: none;
 }
 .logo h1 {
-  font-family: "Raleway";
+  font-family: "Raleway";color: #525554;
   font-style: normal;
   /* font-weight: 600;
   font-size: 64px;
   line-height: 75px; */
-
-  color: #ffffff;
+ 
 }
 .landing-page-navbar {
-  background: #595959;
+  background: #fff;
   z-index: 2;
 
   padding-top: 30px;position: fixed;
@@ -29,7 +28,7 @@
   align-items: center;
 }
 .nav-links ul button{
-  background: #EC7344;
+  background: #000;
 border-radius: 10px;width: fit-content;font-family: 'Montserrat';
 font-style: normal;
 font-weight: 300;border: none;padding: 3px 13px;
@@ -67,7 +66,7 @@ color: #FFFFFF;
   line-height: 37px;
   /* identical to box height */
 
-  color: #ffffff;
+  color: #000;
 }
 /* .navbar{width: 95%;width: 0 auto;} */
 .landing-page-first-section {
@@ -123,7 +122,7 @@ color: #FFFFFF;
   font-weight: 500;
   /* font-size: 30px;
   line-height: 37px; */
-  background: #00984f;
+  background: #000;
   border-radius: 15px;
   width: fit-content;
   border: none;
@@ -222,10 +221,10 @@ color: #FFFFFF;
   font-weight: 600;
   font-size: 24px;
   text-decoration: underline;
-  text-decoration-color: #c44800;
+  text-decoration-color: #000;
   line-height: 29px;
 
-  color: #c44800;
+  color: #000;
 }
 .landing-fourth-why-section p {
   font-family: "Montserrat";
@@ -295,7 +294,7 @@ color: #FFFFFF;
   line-height: 67px;
   /* identical to box height */
 
-  color: #c44800;
+  color: #000;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -322,10 +321,10 @@ color: #FFFFFF;
   /* identical to box height */
   margin-top: 40px;
 
-  color: #c34800;
+  color: #000;
 }
 .footer {
-  background: #595959;
+  background: #fff;
   padding-top: 12px;position: relative;
   padding-bottom: 16px;
 }
@@ -354,8 +353,7 @@ color: #FFFFFF;
   font-size: 17px;
   line-height: 22px;
   margin-top: 68px;
-  text-align: left;
-  color: rgb(255, 255, 255);
+  text-align: left;color: #000;
   margin-left: 85px;
   width: 45%;
 }
@@ -410,7 +408,7 @@ color: #FFFFFF;
   /* identical to box height */
 
   text-align: center;
-  color: #ff6000;
+  color: #000;
 }
 .landing-seven-testemonial {
   position: relative;
@@ -440,7 +438,7 @@ color: #FFFFFF;
   /* identical to box height */
   margin: 0 11%;
 
-  color: #ffffff;
+  color: #000;
 }
 .menu-btn{display: none;}
 .landing-page-third-card-one h1{text-align: center;}
@@ -448,10 +446,10 @@ color: #FFFFFF;
 @media screen  and (max-width:1920px) {
   .landing-page-first-section h1, .landing-second-section h1{    font-size: 40px;
     line-height: 50px;}
-  .logo h1,.footer .logo h1{    font-size: 34px;font-weight: 400;
+  .logo h1,.footer .logo h1{    font-size: 34px;font-weight: 500;
     line-height: 54px;}
     .logo img{width: 70px;} 
-    .nav-links ul li,.footer-links ul li{font-weight: 300;
+    .nav-links ul li,.footer-links ul li{font-weight: 500;
       font-size: 18px;}
       .landing-page-first-section p, .landing-second-section p {  
         font-size: 24px;
