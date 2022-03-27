@@ -324,6 +324,8 @@ color: #FFFFFF;
   color: #000;
 }
 .footer {
+  border-top: 0.2px solid rgba(0, 0, 0, 0.17);
+  box-shadow: 2px -1px 2px   rgba(0,0,0,0.15);
   background: #fff;
   padding-top: 12px;position: relative;
   padding-bottom: 16px;
@@ -335,17 +337,30 @@ color: #FFFFFF;
   line-height: 56px;
 }
 .footer-links ul {
-  display: flex;
+  /* display: flex; */
 }
 .footer-wrapper {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: flex-start;
   width: 100%;
+  flex-direction: column;
 }
-.footer-links{position: absolute;right: 0;top: 10px;}
+.footer-links{ top: 10px;}
 .footer{position: relative;}
-.footer-links ul{justify-content: space-between;flex-wrap: wrap;width: 40% ;  margin-left: auto;}
+/* .footer-links ul{justify-content: space-between;flex-wrap: wrap;width: 40% ;  margin-left: auto;} */
+.footer-link-tag{display: flex;}
+.footer-link-tag a{
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  /* identical to box height */
+  /* margin: 0 11%; */
+
+  color: #525554;
+}
 .footer-end-text p {
   font-family: Montserrat;
   font-style: normal;
@@ -353,9 +368,9 @@ color: #FFFFFF;
   font-size: 17px;
   line-height: 22px;
   margin-top: 68px;
-  text-align: left;color: #000;
-  margin-left: 85px;
-  width: 45%;
+  text-align: center;color: #000;
+  /* margin-left: 85px; */
+  /* width: 45%; */
 }
 .first-and-second-bg {
   /* background: url("./assets/images/newfirstbg.svg") no-repeat; */
@@ -517,7 +532,7 @@ color: #FFFFFF;
   .landing-page-third-card-one p{
     font-size: 20px;margin-top: 25px;
   }
-  .footer-end-text p{width: 45%;font-size: 16px;text-align: left;}
+  .footer-end-text p{ font-size: 16px; }
 }
 @media (max-width:1080px) {
   .testimonial-card-wrapper {
@@ -553,7 +568,7 @@ color: #FFFFFF;
 }
 .dots-img img,.dots-img1 img{width: 18px;}
 @media (max-width:870px) {
-  .footer-end-text p{margin-left: 20px;font-size: 13px;line-height: 18px;width: 60%;}
+  .footer-end-text p{margin-left: 20px;font-size: 13px;line-height: 18px; }
   .footer-links ul{justify-content: flex-end;}
   .dots-img img,.dots-img1 img{width: 13px;}
   .dots-img {
@@ -633,7 +648,7 @@ left: 42%;  width: 12%;
 }
 @media (max-width:500px) {
   .footer-links ul{width: 40%;}
-  .footer-end-text p{margin-bottom: 95px;}
+  /* .footer-end-text p{margin-bottom: 95px;} */
   .footer-links{top: 146px;}
   .landing-seven-testemonial {
     padding-top: 46px;
@@ -660,7 +675,7 @@ left: 42%;  width: 12%;
   line-height: 37px;
 }
 .footer-links ul li{font-size: 12px ;line-height: 20px;}
-.footer-end-text p{margin-left: 6px;width: 95%;margin-top: 30px;font-size: 14px;}
+/* .footer-end-text p{margin-left: 6px;width: 95%;margin-top: 30px;font-size: 14px;} */
 .footer-links ul { 
   right: 24px;
   top: 27px;
@@ -672,10 +687,10 @@ left: 42%;  width: 12%;
 line-height: 24px;  font-size: 16px;
 }
 .footer-end-text p {
-  margin-left: 6px;
+  /* margin-left: 6px;
   width: 95%;
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 12px; */
 }
 .landing-five-instructor button {
   margin-top: 35px;
@@ -776,3 +791,41 @@ margin-top: 5px;}.landing-page-third-card-one img {
   .testimonial-card p{font-size: 10px;}
 }
 .popular-card1 p{text-align: center;}
+.footer-link-tag {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 58%;
+  width: 60%;
+  margin-top: 30px;
+}
+.footer-link-tag{margin-left: 20px;width: 500px;}
+.footer-link-tag a{margin-top: 15px;    width: 180px;display: block;}
+.footer-end-text{position: absolute;right: 10px;text-align: right;margin-left: auto;width: 40%;top: 0;}
+.footer-end-text p{text-align: right;}
+@media (max-width:800px) {
+  .footer-link-tag {
+    margin-left: 20px;
+    width: 261px;
+}
+  .footer-link-tag a{font-weight: 500;
+    font-size: 12px;width: 130px;
+    line-height: 20px;}
+}
+@media (max-width:600px) {
+  .footer-link-tag{margin-top: 0px;margin-bottom: 80px;}
+  .footer-end-text{bottom: 10px;top: unset;width: 100%;}
+  .footer-end-text p{text-align: center;}
+  .footer-link-tag{max-width: 77%;}
+  .footer-link-tag a{width: 120px;margin-top: 7px;}
+}
+.get-started-btn{
+  font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    background: #000;margin-top: 15px;
+    border-radius: 15px;
+    width: 150px;
+    border: none;
+    padding: 4px 29px 4px 25px;
+    color: #ffffff;font-size: 15px; 
+}
