@@ -648,6 +648,7 @@ left: 42%;  width: 12%;
   .landing-page-third-card-one{margin-top: 50px;width: 70%;}
 }
 @media (max-width:500px) {
+  .landing-page-third-card-one{box-shadow: rgb(0 0 0 / 17%) 20px 20px 18px -10px;}
   .footer-links ul{width: 40%;}
   /* .footer-end-text p{margin-bottom: 95px;} */
   .footer-links{top: 146px;}
@@ -656,7 +657,7 @@ left: 42%;  width: 12%;
 }.landing-seven-testemonial h1{margin-bottom: 15px !important;}
   .landing-page-third-card-one {
     /* margin-top: 30px; */
-    width: 85%;
+    width: 65%;padding-bottom: 7%;
 }
 .landing-fourth-why-section p {
   font-size: 16px;
