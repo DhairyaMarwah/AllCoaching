@@ -829,3 +829,11 @@ margin-top: 5px;}.landing-page-third-card-one img {
     padding: 4px 29px 4px 25px;
     color: #ffffff;font-size: 15px; 
 }
+.popular-card1{
+  margin: 0 30px;
+}
+.slick-prev,.slick-next {  font-family: "Montserrat"; position: absolute;cursor: pointer; font-size: 44px;border: none;background-color: transparent;
+}
+.slick-prev{top: 120px;
+  left: -32px;}
+  .slick-next{bottom:270px; right: -32px;}
