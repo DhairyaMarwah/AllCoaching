@@ -238,7 +238,7 @@ color: #FFFFFF;
   margin: 0 auto;
   text-align: center;
   margin-top: 57px;
-  margin-bottom: 61px;
+  margin-bottom: 21px;
   color: #525554;
 }
 .landing-five-instructor {
@@ -902,3 +902,5 @@ margin-top: 5px;}.landing-page-third-card-one img {
     @media (max-width:600px) {
       .footer-social-links{left: unset;right: 10px;top: 60px; margin-left: auto;}
     }
+    .landing-fourth-why-section a{cursor: pointer; display: block;font-size: 14px;text-decoration: none;margin-bottom: 10px;}
+    #more {display: none;}
