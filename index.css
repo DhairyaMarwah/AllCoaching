@@ -143,17 +143,18 @@ color: #FFFFFF;
 .landing-page-third-card-third img{top: -70px;}
 .landing-page-third-card-one {position: relative;
   background: #396fa1;
-  padding-top: 104px;cursor: pointer;
+  padding-top: 63px;
+  cursor: pointer;
   padding-left: 14px;
   padding-right: 14px;
-  box-shadow: 20px 20px 10px 5px rgba(0, 0, 0, 0.19);
-  width: 25%;
+  box-shadow: 20px 20px 10px 5px rgb(0 0 0 / 19%);
+  width: 29%;
   color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
   border-radius: 5px;
-  padding-bottom: 8%;
+  padding-bottom: 3%;
 }
 .landing-page-third-card-two h1,
 .landing-page-third-card-third h1 {
@@ -183,7 +184,7 @@ color: #FFFFFF;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  margin-top: 38px;
+  margin-top: 34px;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
@@ -553,7 +554,7 @@ color: #FFFFFF;
   .landing-page-first-section h1, .landing-second-section h1{font-size: 33px;line-height: 35px;}
   .landing-page-first-section p, .landing-second-section p{font-size: 19px;line-height: 27px;}
   .landing-five-instructor-text p{width: 85%;padding-top: 25px;font-size: 23px;}
-  .popular-cards{width: 80%;}
+  /* .popular-cards{width: 80%;} */
   .popular-card1{width: 40%;margin-bottom: 20px;}
   .landing-five-instructor{margin-bottom: 100px;}
   .landing-seven-testemonial{padding-top: 100px;}
@@ -641,7 +642,7 @@ left: 42%;  width: 12%;
   .landing-page-third-cards{flex-direction: column;}
   .landing-second-section{padding-right: 20px;}
   .landing-second-section p{width: 96%;}
-  .popular-cards{width: 90%;}
+  /* .popular-cards{width: 90%;} */
   .landing-page-third-cards{margin-top: 100px;}
   .landing-page-third-card-two{margin-top: 30px;}
   .landing-page-third-card-one{margin-top: 50px;width: 70%;}
@@ -837,8 +838,8 @@ margin-top: 5px;}.landing-page-third-card-one img {
 .slick-prev{top: 120px;
   left: -32px;}
   .slick-next{bottom:270px; right: -32px;}
-  .contact-container{padding-right: 10px; box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;padding-top: 20px;padding-bottom: 15px; text-align: center;  font-family: "Montserrat"; background-color: #fff;width: 80%;margin: 0 auto;margin-bottom: 130px;}
+  .contact-container{ padding-right: 10px; box-shadow: 3px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;padding-top: 20px; padding-bottom: 15px; text-align: center;  font-family: "Montserrat"; background-color: #fff;width: 80%;margin: 0 auto;margin-bottom: 130px;margin-top: 90px;}
   .contact-container h1{ font-family: "Raleway";
     font-style: normal;margin-bottom: 50px;
     font-weight: 600;
@@ -847,19 +848,20 @@ margin-top: 5px;}.landing-page-third-card-one img {
     margin-top: 32px; }
     .contact-form{display: flex;justify-content: space-around;align-items: center;}
     .contact-form-inputs{display: flex;width: 50%;flex-direction: column;}
-    .contact-form-inputs input,.contact-form-inputs textarea{width: 80%;border: 1px solid rgba(0, 0, 0, 0.47);border-radius: 10px;margin: 0 auto; margin-bottom: 15px;padding-left: 7px;}
+    .contact-form-inputs select{padding-right: 5px;}
+    .contact-form-inputs input,.contact-form-inputs textarea,.contact-form-inputs select{width: 80%;border: 1px solid rgba(0, 0, 0, 0.47);border-radius: 10px;margin: 0 auto; margin-bottom: 15px;padding-left: 7px;}
     .contact-form-img img{width: 40vw;}
-    .contact-form-inputs input::placeholder,.contact-form-inputs textarea::placeholder{font-family: "Raleway";
+    .contact-form-inputs input::placeholder,.contact-form-inputs textarea::placeholder,.contact-form-inputs select,.contact-form-inputs option{font-family: "Raleway";
       font-style: normal;
       /* font-weight: 00; */
       font-size: 16px;
   }
-    .contact-form-inputs input{height: 45px;}
+    .contact-form-inputs input,.contact-form-inputs select{height: 45px;}
     .contact-form-inputs textarea{padding-top: 4px;}
     .contact-form-inputs button{padding:3px 10px;margin-top: 20px;border-radius: 10px;text-align: center;display: flex;justify-content: center;align-items: center;width: 100px;margin: 0 auto;}
     @media (max-width:1200px){
-      .contact-form-inputs input, .contact-form-inputs textarea{width: 95%;}
-      .contact-form-inputs input{height: 38px;}
+      .contact-form-inputs input, .contact-form-inputs textarea, .contact-form-inputs select{width: 95%;}
+      .contact-form-inputs input, .contact-form-inputs select{height: 38px;}
     }
     @media (max-width:800px){
       .contact-form{flex-direction: column;}
@@ -872,7 +874,7 @@ margin-top: 5px;}.landing-page-third-card-one img {
           width: 44vw;
       }
       .contact-form-inputs{width: 75%;}
-      .contact-form-inputs input {
+      .contact-form-inputs input,.contact-form-inputs select {
         height: 31px;
     }
     .contact-container{margin-bottom: 60px;margin-top: 40px;}
@@ -892,5 +894,10 @@ margin-top: 5px;}.landing-page-third-card-one img {
 }
 .contact-form-inputs textarea{height: 100px;}
     }
-    .slick-slide{width: 250px !important;}
+    /* .slick-slide{width: 250px !important;} */
     /* .slick-track{height: 250px;} */
+    .footer-social-links{position: relative;left: 15px; top: 90px; width: 100px; display: flex;justify-content: space-around;align-items: center; }
+    .footer-social-links img{width: 17px;}
+    @media (max-width:600px) {
+      .footer-social-links{left: unset;right: 10px;top: 60px; margin-left: auto;}
+    }
