@@ -819,7 +819,7 @@ margin-top: 5px;}.landing-page-third-card-one img {
     margin-left: 20px;
     width: 261px;
 }
-  .footer-link-tag a{font-weight: 500;
+  .footer-link-tag a,.footer-links a{font-weight: 500;
     font-size: 12px;width: 130px;
     line-height: 20px;}
 }
@@ -907,10 +907,48 @@ margin-top: 5px;}.landing-page-third-card-one img {
     }
     /* .slick-slide{width: 250px !important;} */
     /* .slick-track{height: 250px;} */
-    .footer-social-links{position: relative;left: 15px; top: 90px; width: 100px; display: flex;justify-content: space-around;align-items: center; }
+    .footer-social-links{
+      /* position: relative;
+      left: 15px;
+       top: 20px; */
+       margin: 20px;
+        width: 100px;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         }
     .footer-social-links img{width: 17px;}
     @media (max-width:600px) {
       .footer-social-links{left: unset;right: 10px;top: 60px; margin-left: auto;}
     }
     .landing-fourth-why-section a{cursor: pointer; display: block;font-size: 14px;text-decoration: none;margin-bottom: 10px;}
     #more {display: none;}
+    .footer-links{margin-left: 20px; width: 270px; display: flex;justify-content: space-between;align-items: baseline;}
+    .footer-link-one{
+      display: flex;flex-direction: column ;
+    }
+
+    .footer-links a,.second-section-first p{font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 27px;
+      /* identical to box height */
+      /* margin: 0 11%; */
+    
+      color: #525554;}
+      .second-section-first p:nth-child(1){
+        font-size: 18px;font-weight: 600;padding-bottom: 10px;
+      }
+      .second-section-first{display: flex;flex-direction: column;align-items: center;justify-content: center;}
+      .footer-sections{display: flex;}
+      .footer-second-section{align-items: flex-start; display: flex; justify-content: space-around;width: 60%;text-align: center;margin: 0 auto;margin-top: 70px;}
+      .second-section-first img{width: 130px;}
+      .footer-end-text p{margin-bottom: 10px;}
+      .new-footer{
+        border-top: 0.2px solid rgba(0, 0, 0, 0.17);
+  box-shadow: 2px -1px 2px   rgba(0,0,0,0.15);
+  background: #fff;
+  padding-top: 12px; 
+  padding-bottom: 16px;
+      }
