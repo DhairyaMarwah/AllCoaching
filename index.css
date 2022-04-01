@@ -599,6 +599,7 @@ left: 42%;  width: 12%;
 }
 }
 @media (max-width:800px) {
+  
   .footer-links ul li{font-size: 16px;line-height: 27px;}
   .footer-links {
     top: 29px;
@@ -919,7 +920,7 @@ margin-top: 5px;}.landing-page-third-card-one img {
          }
     .footer-social-links img{width: 17px;}
     @media (max-width:600px) {
-      .footer-social-links{left: unset;right: 10px;top: 60px; margin-left: auto;}
+      .footer-social-links{left: unset;right: 10px;top: 60px; }
     }
     .landing-fourth-why-section a{cursor: pointer; display: block;font-size: 14px;text-decoration: none;margin-bottom: 10px;}
     #more {display: none;}
@@ -951,4 +952,18 @@ margin-top: 5px;}.landing-page-third-card-one img {
   background: #fff;
   padding-top: 12px; 
   padding-bottom: 16px;
+      }
+      @media (max-width:800px) {
+        .second-section-first p{
+          
+        }
+        .footer-sections{flex-direction: column;}
+        .footer-second-section{width:97%;}
+        .second-section-first img{width: 90px;}
+        .footer-second-section{margin-top: 25px;}
+      }
+      @media (max-width:500px){
+        .footer-links a, .second-section-first p{font-size: 11px;}
+        .second-section-first p:nth-child(1){font-size: 13px;padding-bottom: 2px;}
+        
       }
