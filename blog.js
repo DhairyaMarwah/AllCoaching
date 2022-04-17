@@ -1,7 +1,7 @@
  
 
 function fetchData(){
-    fetch("https://api.allcoaching.in/api/v1/admin/blog/all/0/4")
+    fetch("https://api.allcoaching.in/api/v1/admin/blog/all/0/5")
     .then((response) => {
         if (!response.ok) {
                     throw Error("ERROR");

@@ -999,7 +999,7 @@ margin-top: 5px;}.landing-page-third-card-one img {
           }
           .blog-text{padding-left: 9px;padding-top: 9px;}
           .blog-img img{border-radius: 20px 20px 0 0;transition: all 0.8s ease-in-out; width: 100%;}
-          .blog-text a{color: #000;position: absolute;bottom: 10px;}
+          .blog-text a{color: #000;position: absolute;bottom: 10px;cursor: pointer;}
           .blog-open-page{padding-top: 50px;text-align: center;padding-bottom: 70px;}
           .blog-by-id p{font-family: "Raleway";
             font-style: normal;padding-top: 8px;
