@@ -1012,4 +1012,17 @@ margin-top: 5px;}.landing-page-third-card-one img {
     border: 5px solid #FFFFFF;}
     .hollow-circle2{width: 65px;
       height: 65px;top: 20px;right: unset;left: 10px;}
-  .blog-page{position: relative;z-index: -2; padding-top: 50px; background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);}
+  .blog-page{position: relative;z-index: 2; padding-top: 50px; background: linear-gradient(180deg, #E5EFFF 0%, rgba(229, 239, 255, 0.262661) 83.7%, rgba(229, 239, 255, 0) 100%);}
+  .blog{margin-bottom: 30px;
+    /* background-color: #fefefe; */
+  }
+  @media (max-width:1300px){
+    .blog{width: 38%;}
+  }
+  @media (max-width:650px){
+    .blog{width: 86%;}
+    .blog-continaer h1{font-size:22px}
+    .blog-continaer p{font-size:16px}
+    .blog-page > h1, .blog-by-id > h1{font-size:27px}
+    .blog-page >p{font-size:14px;padding: 0 4%;opacity: 0.7;}
+  }
