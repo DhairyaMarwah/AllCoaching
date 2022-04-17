@@ -1,6 +1,6 @@
 
 function fetchData(){
-    fetch("https://api.allcoaching.in/api/v1/admin/blog/all/0/3")
+    fetch("https://api.allcoaching.in/api/v1/admin/blog/all/0/4")
     .then((response) => {
         if (!response.ok) {
                     throw Error("ERROR");
@@ -12,6 +12,8 @@ function fetchData(){
 
         const html=data.map((index)=>{
             console.log(index);
+            let trimtext=index.blogBody.substring(0, 151)+"..."
+            console.log(trimtext);
             return `
                 <div class="blog">
                 <div class="blog-img" >
@@ -19,7 +21,7 @@ function fetchData(){
                 </div>
                 <div class="blog-text">
                 <h1> ${index.title} </h1>
-                <p> ${index.blogBody} </p>
+                <p> ${trimtext}   </p>
                 </div>
                   </div>
                 `;
