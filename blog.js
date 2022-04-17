@@ -12,7 +12,7 @@ function fetchData(){
 
         const html=data.map((index)=>{
             console.log(index);
-            let trimtext=index.blogBody.substring(0, 151)+"..."
+            let trimtext=index.blogBody.substring(0, 131)+"..."
             console.log(trimtext);
             return `
                 <div class="blog">
@@ -22,6 +22,7 @@ function fetchData(){
                 <div class="blog-text">
                 <h1> ${index.title} </h1>
                 <p> ${trimtext}   </p>
+                <a href="blogopen.html">Read More</a>
                 </div>
                   </div>
                 `;
