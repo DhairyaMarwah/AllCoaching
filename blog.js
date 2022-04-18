@@ -44,9 +44,10 @@ searchBar.addEventListener('keyup', (e) => {
     displayBlog(filteredBlogs);
 });
 let ourblogs = [];
-const loadBlog = async () => {
+const loadBlog = async (page) => {
     try {
-        const res = await fetch('https://api.allcoaching.in/api/v1/admin/blog/all/0/5');
+        console.log(page);
+        const res = await fetch(`https://api.allcoaching.in/api/v1/admin/blog/all/${page}/3`);
         ourblogs = await res.json();
         console.log(ourblogs);
         displayBlog(ourblogs);
@@ -54,11 +55,23 @@ const loadBlog = async () => {
         console.error(err);
     }
 };
-loadBlog()
+let page=0
+loadBlog(page)
+function inc() { 
+    page++; 
+    console.log(page);
+    loadBlog(page)
+  }
+  function dec() {  
+    if (page > 0) {
+      page = page - 1;
+    } 
+    console.log(page);
+    loadBlog(page)
+  }
 const displayBlog = (blogs) => {
     const htmlString = blogs
-        .map((blog) => {
-            console.log(blog);
+        .map((blog) => { 
             let trimtext = blog.blogBody.substring(0, 131) + "...";
             return `
             <div class="blog">
@@ -95,23 +108,8 @@ const displayBlog = (blogs) => {
 
 
 
+ 
 
-let page = 0;
-// fetchData(page);
-function inc() {
-  console.log("next");
-  page++;
-  fetchData(page);
-  console.log(page);
-}
-function dec() {
-  // document.getElementById("app1").contentWindow.location.reload(true);
-  console.log("prev");
-  if (page > 0) {
-    page = page - 1;
-  }
-  fetchData(page);
-}
 function idparser(id) {
   const nonecards = document.getElementById("blog-page");
   nonecards.classList.toggle("none");
