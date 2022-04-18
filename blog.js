@@ -1,8 +1,12 @@
- 
 
-function fetchData(){
-    fetch("https://api.allcoaching.in/api/v1/admin/blog/all/0/5")
+ let api="https://api.allcoaching.in/api/v1/admin/blog/all"
+
+
+function fetchData(page){
+    // fetch(`${api}/${page}/2`)
+    fetch(`${api}/0/5`)
     .then((response) => {
+        
         if (!response.ok) {
                     throw Error("ERROR");
                  }
@@ -35,11 +39,29 @@ function fetchData(){
 
     })
 } 
-fetchData() 
- 
+let page=0
+fetchData(page)
+function inc(){
+    // document.getElementById("#app").reload(true);
+    console.log("next");
+    page++; 
+    fetchData(page)
+    console.log(page);
+     }
+     function dec(){
+        // document.getElementById("app1").contentWindow.location.reload(true);
+        console.log("prev");
+        if(page>0){
+
+            page=page-1;
+        } 
+        fetchData(page)
+         }  
  function idparser(id){
      const nonecards=document.getElementById("blog-page")
      nonecards.classList.toggle("none")
+    //  document.getElementById("blogopen-page-toggle").classList.toggle("revert-none")
+    document.getElementById("blogopen-page-toggle").classList.remove("remove-blogopen")
      demo=id;
      console.log(id); 
      fetchOpen(id)
@@ -67,3 +89,9 @@ fetchData()
     })
 } 
  } 
+
+
+ function closeBlogOpen(){
+     document.getElementById("blogopen-page-toggle").classList.toggle("remove-blogopen")
+    document.getElementById("blog-page").classList.remove("none")
+ }
